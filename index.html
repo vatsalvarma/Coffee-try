@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavored | Premium Coffee Experience</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Lenis CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.2/dist/lenis.css">
+</head>
+<body>
+    <div class="bg-blur"></div>
+    
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="logo-group">
+                <div class="logo">
+                    <span>Flavored</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
+                </div>
+                <span class="logo-sub">Wake up to something special</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#menu">Coffee Menu</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+            <a href="#shop" class="btn-dark btn-pill">Coffee Shop</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section-padding">
+            <div class="container hero-grid">
+                <div class="hero-left">
+                    <h1 class="hero-title">Coffee<br>The Best For You</h1>
+                    <a href="#menu" class="btn-dark btn-lg hero-btn">View Menu</a>
+                    
+                    <div class="hero-icons">
+                        <div class="icon-glass">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path></svg>
+                        </div>
+                        <div class="icon-glass">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20"></path><path d="m4.93 10.93 1.41 1.41"></path><path d="M2 18h20"></path><path d="M20 14H4"></path><path d="M17 10c0-3-2-5-5-5s-5 2-5 5"></path></svg>
+                        </div>
+                        <div class="icon-glass">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 8h1a4 4 0 1 1 0 8h-1"></path><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"></path><line x1="12" x2="12" y1="2" y2="4"></line><line x1="8" x2="8" y1="2" y2="4"></line><line x1="16" x2="16" y1="2" y2="4"></line></svg>
+                        </div>
+                        <div class="icon-glass">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 2v2"></path><path d="M14 2v2"></path><path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h12z"></path><path d="M6 8V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2"></path></svg>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-right">
+                    <div class="cup-wrapper hero-cup">
+                        <img src="assets/coffee_cup.png" alt="Premium Coffee" class="top-cup">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="menu section-padding">
+            <div class="container menu-grid">
+                <div class="menu-cards">
+                    <div class="glass-card coffee-card card-1">
+                        <img src="assets/coffee_cup.png" alt="Americano" class="card-cup">
+                        <div class="card-content">
+                            <h3>Americano</h3>
+                            <p>100% Natural Arabica or Robusta, 30 ml cup</p>
+                            <div class="card-footer">
+                                <div class="action-btns">
+                                    <button class="icon-btn">
+                                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                                    </button>
+                                    <button class="icon-btn">
+                                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                                    </button>
+                                </div>
+                                <div class="price-pill btn-dark">$5.50</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-card coffee-card card-2">
+                        <img src="assets/coffee_cup.png" alt="Cappuccino" class="card-cup">
+                        <div class="card-content">
+                            <h3>Cappuccino</h3>
+                            <p>Coffee 50%, milk 50%, 200 ml</p>
+                            <div class="card-footer">
+                                <div class="action-btns">
+                                    <button class="icon-btn">
+                                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                                    </button>
+                                    <button class="icon-btn">
+                                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                                    </button>
+                                </div>
+                                <div class="price-pill btn-dark">$7.50</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="menu-text">
+                    <h2>Lorem Ipsum is<br>simply dummy text of</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <a href="#" class="btn-dark btn-pill">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature Section -->
+        <section class="feature section-padding">
+            <div class="container feature-grid">
+                <div class="feature-text">
+                    <h2>Lorem Ipsum is simply dummy text<br>of the printing and typesetting<br>industry.</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a href="#" class="btn-dark btn-pill">Learn More</a>
+                </div>
+                
+                <div class="feature-image">
+                    <div class="feature-cup-wrapper">
+                        <img src="assets/coffee_cup.png" alt="Coffee" class="feature-cup">
+                        <div class="glass-badge floating-badge">$2.50</div>
+                        
+                        <!-- Decorative Beans -->
+                        <img src="assets/coffee_bean.png" alt="" class="bean b1">
+                        <img src="assets/coffee_bean.png" alt="" class="bean b2">
+                        <img src="assets/coffee_bean.png" alt="" class="bean b3">
+                        <img src="assets/coffee_bean.png" alt="" class="bean b4">
+                        <img src="assets/coffee_bean.png" alt="" class="bean b5">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- App Section -->
+        <section class="app-section section-padding">
+            <div class="container app-grid">
+                <div class="app-mockups">
+                    <!-- Phone 1 -->
+                    <div class="glass-card phone-mockup phone-1">
+                        <div class="p-header">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"></path></svg>
+                        </div>
+                        <h3 class="p-title">Coffee</h3>
+                        <div class="p-btn-wrap">
+                            <button class="btn-dark p-btn-sm">View Menu</button>
+                        </div>
+                        <div class="p-icons">
+                            <div class="p-icon active"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path></svg></div>
+                            <div class="p-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20"></path><path d="m4.93 10.93 1.41 1.41"></path><path d="M2 18h20"></path></svg></div>
+                            <div class="p-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 8h1a4 4 0 1 1 0 8h-1"></path><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"></path></svg></div>
+                        </div>
+                        
+                        <div class="p-cards">
+                            <div class="p-card-mini glass-card-sm">
+                                <img src="assets/coffee_cup.png" class="p-card-img" alt="">
+                                <div class="p-card-content">
+                                    <h4>Americano</h4>
+                                    <p>100% Natural Arabica...</p>
+                                    <div class="p-card-footer">
+                                        <span class="p-price">$5.50</span>
+                                        <button class="p-add">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-card-mini glass-card-sm">
+                                <img src="assets/coffee_cup.png" class="p-card-img" alt="">
+                                <div class="p-card-content">
+                                    <h4>Cappuccino</h4>
+                                    <p>Coffee 50%, milk 50%...</p>
+                                    <div class="p-card-footer">
+                                        <span class="p-price">$7.50</span>
+                                        <button class="p-add">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="p-nav glass-card-sm">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                        </div>
+                    </div>
+                    
+                    <!-- Phone 2 -->
+                    <div class="glass-card phone-mockup phone-2">
+                        <div class="p-header">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"></path></svg>
+                        </div>
+                        <div class="p2-img-wrap">
+                            <img src="assets/coffee_cup.png" class="p2-img" alt="">
+                        </div>
+                        <h3 class="p2-title">Latte Blend</h3>
+                        <p class="p2-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p>
+                        
+                        <div class="p2-price-sec">
+                            <span class="p2-price-label">Total Price</span>
+                            <div class="p2-price-row">
+                                <span class="p2-price-val">$7.50</span>
+                                <button class="p-icon-sm">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                                </button>
+                                <button class="btn-dark p-add-cart">Add to Cart <span style="margin-left:5px;">+</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="app-text">
+                    <h2>App is Available</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <div class="store-btns">
+                        <button class="icon-glass btn-store">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-2.22 0-4 1.44-5 1.44C9.6 6.44 7.6 5 5.8 5a5 5 0 0 0-5 5.5c0 5 2.5 10.5 5.5 10.5 1.25 0 2.5-1.06 4-1.06z"></path><path d="M10 2c1 .5 2 2 2 5h-1c-1-1-2-3-2-5v-1z"></path></svg>
+                        </button>
+                        <button class="icon-glass btn-store">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta section-padding">
+            <div class="container">
+                <div class="cta-content">
+                    <div class="cta-left">
+                        <span class="cta-sub">LET'S TALK</span>
+                        <h2 class="cta-title">Want to Reserve a Table?</h2>
+                        <p class="cta-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="cta-right">
+                        <a href="#contact" class="btn-dark btn-lg btn-pill">Contact Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer section-padding">
+        <div class="container footer-grid">
+            <div class="footer-col brand-col">
+                <div class="logo-group">
+                    <div class="logo">
+                        <span>Flavored</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
+                    </div>
+                    <span class="logo-sub">Wake up to something special</span>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Our Services</h4>
+                <a href="#">Pricing</a>
+                <a href="#">Tracking</a>
+                <a href="#">Report a Bug</a>
+                <a href="#">Terms of Services</a>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Our Company</h4>
+                <a href="#">Pricing</a>
+                <a href="#">Tracking</a>
+                <a href="#">Report a Bug</a>
+                <a href="#">Terms of Services</a>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Address</h4>
+                <p>Lorem Ipsum is<br>simply dummy<br>text of the<br>printing and</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.2/dist/lenis.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
